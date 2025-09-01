@@ -1,5 +1,5 @@
 class Solution {
-    public int lowerBound(int[] nums, int target) {
+    public int upperBound(int[] nums, int target) {
         int n = nums.length;
         int low = 0, high = n - 1;
         int ans = n; 
